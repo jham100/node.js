@@ -17,9 +17,9 @@ var spotify = new Spotify({
       return console.log('Error occurred: ' + err);
     }
   JSON.stringify(data); 
-  console.log(data);
+  console.log(data.tracks.items[0]);
   });
-  console.log("Enter a song name to search for it-")
+  
 // I think that I have almost gotten this exercise to work, 
 // but I am having an issue getting the response that I am looking for.
 
