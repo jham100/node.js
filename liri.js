@@ -20,6 +20,3 @@ var spotify = new Spotify({
   console.log(data.tracks.items[0]);
   });
   
-// I think that I have almost gotten this exercise to work, 
-// but I am having an issue getting the response that I am looking for.
-
